@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: oldlondon;
+            src: url("OldLondon.ttf") format("opentype(otf)"), url("OldLondon.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: "oldlondon";
+            font-size: 3em;
+        }
+
+        p{
+            font-family: "oldlondon";
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis doloribus at sequi optio nihil nobis nemo ullam exercitationem minima adipisci maxime aspernatur dolorum alias eligendi quisquam, excepturi voluptatum eius ducimus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos debitis fuga id recusandae est quas veniam quo consectetur vero? Quas distinctio dolorem eligendi quam quae quo, excepturi sit animi architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt iure non, sit odit ex enim aspernatur perspiciatis voluptates quaerat aut accusamus cum! Autem ullam eum deserunt odit quae porro doloribus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloribus quae, quisquam voluptate eius fugiat, hic est odio, quo dolorem dignissimos assumenda. Quod praesentium consequuntur sequi rerum non deleniti vero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum consectetur voluptatum voluptatibus adipisci ut possimus aliquam facere tenetur atque odit. Dolorum minus veniam ipsum itaque nesciunt doloremque laudantium aut voluptates? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum architecto laboriosam cumque cupiditate non. Repellat at nostrum vero eum adipisci aspernatur odit ex eius velit blanditiis, ad reiciendis, libero molestiae.</p>
+</body>
+</html>
